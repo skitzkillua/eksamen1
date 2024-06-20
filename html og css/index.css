@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #e0d0d0;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section {
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+}
+
+.projekter {
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.om-mig {
+    top: 50%;
+    right: 20%;
+    transform: translate(50%, -50%);
+}
+
+.processportfolio {
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.mit-kunst {
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
